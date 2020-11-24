@@ -12,6 +12,7 @@ def close():
     global counter
     if counter>=100:
         window.quit()
+        print('Вы приняты на работу в ад! Поздравляем!')
 def tap():
     global counter
     counter+=1
@@ -33,7 +34,5 @@ button=Button(window, command=tap, width=4, height=2, bg='#ff0000')
 label=Label(text='У тебя не получится\nПока ты ни разу не попал))', font='arial 10')
 
 label.pack()
-#run()
-button.pack()
-quit()
+run()
 window.mainloop()
