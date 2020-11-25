@@ -29,7 +29,7 @@ def run():
     window.after(400, run)
     button.place(x=random.randint(0, 450), y=random.randint(100, 450))
     
-button=Button(window, command=tap, width=4, height=2, bg='#ff0000')
+button=Button(window, command=tap, text='Ӹ', font='arial 10', width=4, height=2, bg='#ff0000')
 
 label=Label(text='У тебя не получится\nПока ты ни разу не попал))', font='arial 10')
 
